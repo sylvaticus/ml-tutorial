@@ -1,0 +1,15 @@
+name: myenvironment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - torch
+    - matplotlib
+    - sklearn
+    - pandas
+    - tqdm
+    - torchvision
+    
